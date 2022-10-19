@@ -1,1 +1,1 @@
-# git_practice_assignmnet
+This is my first git and Github Assignment.
