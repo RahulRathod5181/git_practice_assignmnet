@@ -1,13 +1,12 @@
-let num =7;
-let count = 0;
-for (let i = 1; i >= num; i--) {
+num = 23
+var isprime = true;
+for (i = 2; i < num; i++) {
   if (num % i == 0) {
-    count++;
-  
+    isprime = false;
+  }
 }
-if (count == 0) {
-  console.log('Yes'+" "+num+' '+'is prime');
-} 
-else {
-  console.log('NO'+" "+num+' '+'is not prime');
+if (isprime == true) {
+  console.log("Yes")
+} else {
+  console.log("No")
 }
